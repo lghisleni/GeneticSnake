@@ -1,0 +1,5 @@
+selection=Sigma Scaling
+selection_id=SIGMA
+run=3
+seed=1369986643
+save_dna_every_generations=5

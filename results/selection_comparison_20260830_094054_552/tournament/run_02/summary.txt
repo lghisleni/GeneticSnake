@@ -1,0 +1,20 @@
+Genetic Snake - Run summary
+selection=Tournament
+selection_id=TOURNAMENT
+run=2
+seed=1369976643
+last_generation=154
+generations_executed=155
+configured_max_generations=250
+termination_reason=STAGNATION
+early_stopping_patience=40
+early_stopping_min_generation=60
+early_stopping_min_relative_improvement=0.0010000000
+save_dna_every_generations=5
+final_best_fitness=167113.4810830798
+final_mean_fitness=45501.5897737925
+best_ever_fitness=167113.4810830798
+best_ever_generation=114
+best_overall_dna=best_overall.dna
+generation_history=generations.csv
+video_checkpoint_directory=best_snakes

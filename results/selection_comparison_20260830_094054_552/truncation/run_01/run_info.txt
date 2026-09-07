@@ -1,0 +1,5 @@
+selection=Truncation
+selection_id=TRUNCATION
+run=1
+seed=1369966643
+save_dna_every_generations=5

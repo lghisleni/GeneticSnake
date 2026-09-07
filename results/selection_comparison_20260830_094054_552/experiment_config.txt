@@ -1,0 +1,12 @@
+selection_methods=6
+runs_per_method=5
+population=70
+elite=6
+max_generations=250
+early_stop_patience=40
+early_stop_min_generation=60
+min_relative_improvement=0.0010000000
+save_snake_every_generations=5
+viewer=false
+ranking_criterion=highest average best-ever fitness across runs
+seed_policy=same run seed across all selection methods

@@ -1,0 +1,5 @@
+selection=Roulette Wheel
+selection_id=ROULETTE
+run=1
+seed=1369966643
+save_dna_every_generations=5

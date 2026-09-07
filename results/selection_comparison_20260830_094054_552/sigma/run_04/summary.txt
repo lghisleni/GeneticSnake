@@ -1,0 +1,20 @@
+Genetic Snake - Run summary
+selection=Sigma Scaling
+selection_id=SIGMA
+run=4
+seed=1369996643
+last_generation=166
+generations_executed=167
+configured_max_generations=250
+termination_reason=STAGNATION
+early_stopping_patience=40
+early_stopping_min_generation=60
+early_stopping_min_relative_improvement=0.0010000000
+save_dna_every_generations=5
+final_best_fitness=183514.7380701343
+final_mean_fitness=55766.3416394427
+best_ever_fitness=183514.7380701343
+best_ever_generation=126
+best_overall_dna=best_overall.dna
+generation_history=generations.csv
+video_checkpoint_directory=best_snakes

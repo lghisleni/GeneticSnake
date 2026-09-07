@@ -1,0 +1,20 @@
+Genetic Snake - Run summary
+selection=Rank
+selection_id=RANK
+run=1
+seed=1369966643
+last_generation=84
+generations_executed=85
+configured_max_generations=250
+termination_reason=STAGNATION
+early_stopping_patience=40
+early_stopping_min_generation=60
+early_stopping_min_relative_improvement=0.0010000000
+save_dna_every_generations=5
+final_best_fitness=196165.3850488118
+final_mean_fitness=63576.6894032902
+best_ever_fitness=196165.3850488118
+best_ever_generation=44
+best_overall_dna=best_overall.dna
+generation_history=generations.csv
+video_checkpoint_directory=best_snakes

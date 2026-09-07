@@ -1,0 +1,110 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "BENCHMARK - Tutti i metodi (consigliato)",
+            "request": "launch",
+            "mainClass": "main.MainWindow",
+            "args": [
+                "--compare",
+                "--runs",
+                "5",
+                "--max-generations",
+                "250",
+                "--patience",
+                "40",
+                "--min-generations",
+                "60",
+                "--min-relative-improvement",
+                "0.001",
+                "--save-every",
+                "5",
+                "--no-viewer"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "BENCHMARK - Veloce 3 x 100",
+            "request": "launch",
+            "mainClass": "main.MainWindow",
+            "args": [
+                "--compare",
+                "--runs",
+                "3",
+                "--max-generations",
+                "100",
+                "--patience",
+                "30",
+                "--min-generations",
+                "50",
+                "--min-relative-improvement",
+                "0.001",
+                "--save-every",
+                "5",
+                "--no-viewer"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "PLAY - Miglior Snake (ultimo benchmark)",
+            "request": "launch",
+            "mainClass": "main.MainWindow",
+            "args": [
+                "--play-best-latest"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "PLAY - Miglior Snake (scegli benchmark)",
+            "request": "launch",
+            "mainClass": "main.MainWindow",
+            "args": [
+                "--play-best",
+                "${input:comparisonDir}"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "VIDEO - Risultati confronto (ogni 5 gen)",
+            "request": "launch",
+            "mainClass": "main.MainWindow",
+            "args": [
+                "--video",
+                "${input:comparisonDir}",
+                "--video-step",
+                "5"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "type": "java",
+            "name": "TRAIN - Tournament",
+            "request": "launch",
+            "mainClass": "main.MainWindow",
+            "args": [
+                "--selection",
+                "tournament"
+            ],
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}"
+        }
+    ],
+    "inputs": [
+        {
+            "id": "comparisonDir",
+            "type": "promptString",
+            "description": "Cartella results/selection_comparison_... da usare per il video",
+            "default": "results/selection_comparison_YYYYMMDD_HHMMSS_SSS"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+Genetic Snake - Run summary
+selection=Stochastic Universal Sampling
+selection_id=SUS
+run=2
+seed=1369976643
+last_generation=105
+generations_executed=106
+configured_max_generations=250
+termination_reason=STAGNATION
+early_stopping_patience=40
+early_stopping_min_generation=60
+early_stopping_min_relative_improvement=0.0010000000
+save_dna_every_generations=5
+final_best_fitness=145201.7891505906
+final_mean_fitness=52705.1909399920
+best_ever_fitness=145201.7891505906
+best_ever_generation=65
+best_overall_dna=best_overall.dna
+generation_history=generations.csv
+video_checkpoint_directory=best_snakes

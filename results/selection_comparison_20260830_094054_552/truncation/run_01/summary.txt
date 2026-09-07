@@ -1,0 +1,20 @@
+Genetic Snake - Run summary
+selection=Truncation
+selection_id=TRUNCATION
+run=1
+seed=1369966643
+last_generation=131
+generations_executed=132
+configured_max_generations=250
+termination_reason=STAGNATION
+early_stopping_patience=40
+early_stopping_min_generation=60
+early_stopping_min_relative_improvement=0.0010000000
+save_dna_every_generations=5
+final_best_fitness=224931.9993675505
+final_mean_fitness=87640.7662367664
+best_ever_fitness=224931.9993675505
+best_ever_generation=114
+best_overall_dna=best_overall.dna
+generation_history=generations.csv
+video_checkpoint_directory=best_snakes

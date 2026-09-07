@@ -39,7 +39,6 @@ public class PhysicalCircle {
         vy *= damping;
 
         double speed = getSpeed();
-
         if (speed > maxSpeed && speed > 0) {
             vx = vx / speed * maxSpeed;
             vy = vy / speed * maxSpeed;
@@ -48,7 +47,6 @@ public class PhysicalCircle {
         if (Math.abs(vx) < 0.001) {
             vx = 0;
         }
-
         if (Math.abs(vy) < 0.001) {
             vy = 0;
         }
@@ -59,17 +57,14 @@ public class PhysicalCircle {
             x = minX + radius;
             vx = -vx * 0.9;
         }
-
         if (x + radius > maxX) {
             x = maxX - radius;
             vx = -vx * 0.9;
         }
-
         if (y - radius < minY) {
             y = minY + radius;
             vy = -vy * 0.9;
         }
-
         if (y + radius > maxY) {
             y = maxY - radius;
             vy = -vy * 0.9;
@@ -119,10 +114,8 @@ public class PhysicalCircle {
 
         if (distance < minDistance) {
             double angle = Math.atan2(this.y - other.y, this.x - other.x);
-
             this.x = other.x + minDistance * Math.cos(angle);
             this.y = other.y + minDistance * Math.sin(angle);
-
             this.vx += Math.cos(angle) * strength;
             this.vy += Math.sin(angle) * strength;
         }
@@ -135,7 +128,6 @@ public class PhysicalCircle {
 
         double desiredDistance = this.radius + target.radius;
         double angle = Math.atan2(this.y - target.y, this.x - target.x);
-
         this.x = target.x + desiredDistance * Math.cos(angle);
         this.y = target.y + desiredDistance * Math.sin(angle);
     }
@@ -147,7 +139,6 @@ public class PhysicalCircle {
 
         double desiredDistance = this.radius + target.radius;
         double angle = Math.atan2(this.y - target.y, this.x - target.x);
-
         double targetX = target.x + desiredDistance * Math.cos(angle);
         double targetY = target.y + desiredDistance * Math.sin(angle);
 

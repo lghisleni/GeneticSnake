@@ -1,0 +1,20 @@
+Genetic Snake - Run summary
+selection=Roulette Wheel
+selection_id=ROULETTE
+run=3
+seed=1369986643
+last_generation=156
+generations_executed=157
+configured_max_generations=250
+termination_reason=STAGNATION
+early_stopping_patience=40
+early_stopping_min_generation=60
+early_stopping_min_relative_improvement=0.0010000000
+save_dna_every_generations=5
+final_best_fitness=148365.8407716546
+final_mean_fitness=63830.2609375057
+best_ever_fitness=148365.8407716546
+best_ever_generation=131
+best_overall_dna=best_overall.dna
+generation_history=generations.csv
+video_checkpoint_directory=best_snakes

@@ -1,0 +1,5 @@
+selection=Rank
+selection_id=RANK
+run=2
+seed=1369976643
+save_dna_every_generations=5

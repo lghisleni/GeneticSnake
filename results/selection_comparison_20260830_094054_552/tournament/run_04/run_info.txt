@@ -1,0 +1,5 @@
+selection=Tournament
+selection_id=TOURNAMENT
+run=4
+seed=1369996643
+save_dna_every_generations=5

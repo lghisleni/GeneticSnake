@@ -1,0 +1,14 @@
+best_selection=Truncation
+best_selection_id=TRUNCATION
+average_best_ever_fitness=240276.6069880785
+stddev_best_ever_fitness=31050.3670952739
+median_best_ever_fitness=231917.4718075502
+absolute_best_fitness=279355.2443649668
+criterion=highest average best-ever fitness across 5 runs
+max_generations=250
+early_stop_patience=40
+early_stop_min_generation=60
+min_relative_improvement=0.0010000000
+save_every=5
+population=70
+elite=6
